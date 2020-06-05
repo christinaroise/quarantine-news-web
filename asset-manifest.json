@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/quarantine-news-web/static/css/main.c90e8df2.chunk.css",
-    "main.js": "/quarantine-news-web/static/js/main.8f12fba8.chunk.js",
-    "main.js.map": "/quarantine-news-web/static/js/main.8f12fba8.chunk.js.map",
-    "runtime-main.js": "/quarantine-news-web/static/js/runtime-main.01ed3c0b.js",
-    "runtime-main.js.map": "/quarantine-news-web/static/js/runtime-main.01ed3c0b.js.map",
-    "static/js/2.370982f5.chunk.js": "/quarantine-news-web/static/js/2.370982f5.chunk.js",
-    "static/js/2.370982f5.chunk.js.map": "/quarantine-news-web/static/js/2.370982f5.chunk.js.map",
+    "main.js": "/quarantine-news-web/static/js/main.99b995cd.chunk.js",
+    "main.js.map": "/quarantine-news-web/static/js/main.99b995cd.chunk.js.map",
+    "runtime-main.js": "/quarantine-news-web/static/js/runtime-main.cae97566.js",
+    "runtime-main.js.map": "/quarantine-news-web/static/js/runtime-main.cae97566.js.map",
+    "static/js/2.d2d17564.chunk.js": "/quarantine-news-web/static/js/2.d2d17564.chunk.js",
+    "static/js/2.d2d17564.chunk.js.map": "/quarantine-news-web/static/js/2.d2d17564.chunk.js.map",
     "index.html": "/quarantine-news-web/index.html",
-    "precache-manifest.b87a13362f0539eb81410066cbc9c48e.js": "/quarantine-news-web/precache-manifest.b87a13362f0539eb81410066cbc9c48e.js",
+    "precache-manifest.e30083d7942cc5162429f4d0e2e4119c.js": "/quarantine-news-web/precache-manifest.e30083d7942cc5162429f4d0e2e4119c.js",
     "service-worker.js": "/quarantine-news-web/service-worker.js",
     "static/css/main.c90e8df2.chunk.css.map": "/quarantine-news-web/static/css/main.c90e8df2.chunk.css.map",
-    "static/js/2.370982f5.chunk.js.LICENSE.txt": "/quarantine-news-web/static/js/2.370982f5.chunk.js.LICENSE.txt",
+    "static/js/2.d2d17564.chunk.js.LICENSE.txt": "/quarantine-news-web/static/js/2.d2d17564.chunk.js.LICENSE.txt",
     "static/media/001-coronavirus.png": "/quarantine-news-web/static/media/001-coronavirus.747a466b.png",
     "static/media/TermsOfService.pdf": "/quarantine-news-web/static/media/TermsOfService.529ba738.pdf",
     "static/media/browse.png": "/quarantine-news-web/static/media/browse.cf804de6.png",
@@ -20,9 +20,9 @@
     "static/media/library.png": "/quarantine-news-web/static/media/library.c8e2d07f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.01ed3c0b.js",
-    "static/js/2.370982f5.chunk.js",
+    "static/js/runtime-main.cae97566.js",
+    "static/js/2.d2d17564.chunk.js",
     "static/css/main.c90e8df2.chunk.css",
-    "static/js/main.8f12fba8.chunk.js"
+    "static/js/main.99b995cd.chunk.js"
   ]
 }

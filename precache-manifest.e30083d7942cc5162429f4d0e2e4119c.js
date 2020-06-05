@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "576d6790419787b4300ea362a9e26787",
+    "revision": "81f508d4f7683ce63ac5679f00ca6674",
     "url": "/quarantine-news-web/index.html"
   },
   {
-    "revision": "5ec83d4822013b66231d",
+    "revision": "e140019d0e7f214a8947",
     "url": "/quarantine-news-web/static/css/main.c90e8df2.chunk.css"
   },
   {
-    "revision": "2cf8ca860583f332b206",
-    "url": "/quarantine-news-web/static/js/2.370982f5.chunk.js"
+    "revision": "e767c3bcd76cbc09fb01",
+    "url": "/quarantine-news-web/static/js/2.d2d17564.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/quarantine-news-web/static/js/2.370982f5.chunk.js.LICENSE.txt"
+    "url": "/quarantine-news-web/static/js/2.d2d17564.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5ec83d4822013b66231d",
-    "url": "/quarantine-news-web/static/js/main.8f12fba8.chunk.js"
+    "revision": "e140019d0e7f214a8947",
+    "url": "/quarantine-news-web/static/js/main.99b995cd.chunk.js"
   },
   {
-    "revision": "9bf17ddd2a36916e053f",
-    "url": "/quarantine-news-web/static/js/runtime-main.01ed3c0b.js"
+    "revision": "942f44867ba6f2a24ec5",
+    "url": "/quarantine-news-web/static/js/runtime-main.cae97566.js"
   },
   {
     "revision": "747a466b381d87c957647684e49ce303",
