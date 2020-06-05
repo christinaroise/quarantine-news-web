@@ -1,68 +1,46 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# PROMO WEBSITE FOR QUARANTINE NEWS APP
 
-In the project directory, you can run:
+This is a website used to promote the newly developed/launched news app: Quarantine. It uses <a href='https://www.npmjs.com/package/react-router-dom'>react-router-dom</a> and <a href='https://www.npmjs.com/package/react-router-hash-link'>react-router-hash-link</a> as a router and for anchor-links. 
 
-### `yarn start`
+In order to save time, <a href='https://www.react-reveal.com/'>react-reveal</a> has been used for on-scroll animation. Other animations uses css animation and @keyframes.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Project structure
+This is a multi-page application.
+- App.js handles the navigation between pages by using HashRouter
+- Pages: 
+    - Home.js
+    - About.js
+- Components are shared between pages, some are universal and unspecific, others are more specificly related to certain areas, like Benefits.js. Universal components take on props.
+- Components: 
+    - Benefits
+    - FeatureArea
+    - Features
+    - Footer
+    - Header
+    - Menu
+    - TermsOfService
+    - Universal
+- Each folder contains one .js-file and one .css-file
+- Stylesheets contains folders with .css-files that are global to the app, like @keyframe animations.
+- The Assets folder contains images, pdf-files, and png-files that are used accross the app. 
+- Icons (.png-files) are made by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="https://www.flaticon.com/">www.flaticon.com</a>
+- iframe is used to show pdf-files in bowsers. Note that there are some pros and cons to using iframe: 
+    - Pros: 
+        - No file size limitations
+        - Works on all popular desktop browsers: Chrome, Firefox, Safari, Opera, Edge, IE8+
+        - It's a browser-native feature so it's a fast solution to show pdf-files
+    - Cons: 
+        - Works only with pdf file types
+        - It doesn't work on mobile browsers:
+            - <b>Safari</b> browser shows a message about 'no inline .pdf suppoert', and gives a dowload button
+            - <b>Chrome</b> on iOS is doing the same as above, but on Android, it gives an option to choose any installed app on the device to open that file
+            - <b>Mozilla</b> shows a message informing the user that a plugin is needed 
+- prefers-reduces-motion has been added in index.html as a link:
+    < link rel="stylesheet" href="../src/Stylesheets/Animations/keyframes.css" media="(prefers-reduced-motion: no-preference)" >
+    - Read more about prefers-reduced-motion here: <a href="https://css-tricks.com/revisiting-prefers-reduced-motion-the-reduced-motion-media-query/">"Revisiting prefers-reduced-motion, the reduced motion media query" by Eric Bailey</a>
+    - With a larger timeframe, more actions on this could have been taken.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+This react-app is an open source example that serves as a demo of how you can develop a simple promotional website for your mobile app. 
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

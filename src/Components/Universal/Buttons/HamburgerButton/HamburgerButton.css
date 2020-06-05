@@ -1,0 +1,23 @@
+.hamburgerButtonContainer{
+    height: 3rem;
+    margin-left: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#openMobMenuButton{
+    display: block;
+}
+
+#exitMobMenuButton{
+    display: none;
+}
+
+.hamburgerButton{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,134 @@
+.imageContainerLeft{
+    display: none;
+}
+.imageContainerRight{
+    display: inherit;
+}
+.featureArea{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featureArea > div{
+    flex: 1;
+}
+.textContainer{
+    opacity: 1;
+}
+.subtitle{
+    margin: 0;
+}
+.title{
+    font-size: 3.5rem;
+    color: #C8A374;
+    margin: 0;
+}
+.description{
+    font-weight: 500;
+}
+.featureButton{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;;
+    margin: 0.5rem 0rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background: rgb(143, 196, 213);
+    border: none;
+    color: white;
+}
+.featureButton:hover{
+    transform: scale(1.05);
+}
+.imageContainer{
+    display: flex;
+    position: relative;
+}
+.absolutePositionedImageContainer{
+    position: absolute;
+}
+.deviceImage{
+    margin-left: auto;
+    margin-right: 5rem;
+    width: 24rem;
+}
+.secondImage{
+    margin-top: 4rem;
+    transform: translateX(25%);
+}
+
+@media only screen and (max-width: 1024px){
+    .deviceImage{
+        margin-right: 4rem;
+        width: 23rem;
+    }
+    .secondImage{
+        transform: translateX(20%);
+    }
+}
+@media only screen and (max-width: 950px){
+    .featureArea{
+        height: 120vh;
+    } 
+    .imageContainerLeft{
+        display: inherit;
+    }
+    .imageContainerRight{
+        display: none;
+    }
+    .textContainer{
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+    }
+    .featureArea{
+        justify-content: center;
+        display: grid;
+    }
+    .textContainer{
+        text-align: center;
+        width: 70%;
+        margin: auto;
+    }
+    .featureArea{
+        display: grid;
+        margin-top: 4rem;
+    }
+    .deviceImage{
+        margin-right: auto;
+        width: 18rem;
+        transform: translateX(-10%);
+    }
+    .secondImage{
+        margin-top: 2rem;
+        transform: translateX(80%);
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .textContainer{
+        width: 80%;
+        padding: 2rem 0rem;
+    }
+    .secondImage{
+        margin-top: 2rem;
+        transform: translateX(60%);
+    }
+    .title{
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 600px){
+    .textContainer{
+        width: 80%;
+    }
+    .deviceImage{
+        width: 14rem;
+    }
+    .secondImage{
+        margin-top: 2rem;
+        transform: translateX(50%);
+    }
+}

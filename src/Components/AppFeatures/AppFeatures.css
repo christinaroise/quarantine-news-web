@@ -1,0 +1,37 @@
+.featuresWrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    width: 100%;
+    padding: 2rem 0rem;
+}
+.featureImgWrapper{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featureShape{
+    position: absolute;
+    background-color: rgba(143, 195, 213, 0.2);
+    height: 30rem;
+    width: 30rem;
+    border-radius: 100%;
+}
+.featureImg{
+    z-index: 1;
+    width: 24rem;
+}
+.featureImg > img{
+    width: 24rem;
+}
+.textComponent{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 2rem;
+}
+.textComponent > h2{
+    font-size: 2rem;
+}

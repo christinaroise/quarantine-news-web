@@ -1,0 +1,24 @@
+.textBlockLTEComponent{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textBlockLTEWrapper{
+    width: 50%;
+}
+.textBlockLTEWrapper > h2{
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(143, 196, 213);
+}
+@media only screen and (max-width: 1024px){
+    .textBlockLTEWrapper{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .textBlockLTEWrapper{
+        width: 90%;
+    }
+}

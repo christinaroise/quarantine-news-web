@@ -1,0 +1,40 @@
+.easyJump{
+    animation: easyJump 4.5s infinite ease-in-out;
+}
+@keyframes easyJump{
+    0%{ transform: translateY(normal); }
+    50%{ transform: translateY(-1rem); }
+    100%{ transform: translateY(normal); }
+}
+.fadeIn {
+    animation: fadeIn ease-in 3s;
+}
+@keyframes fadeIn {
+    0% { opacity:0; }
+    100% { opacity:1; }
+}
+.slideIn{
+    animation: slideIn 2.5s ease;
+}
+@keyframes slideIn{
+    from{ transform: translateX(45rem);}
+    to{ 
+        transform: translateX(normal);
+    }
+}
+.slideInSecond{
+    animation: slideIn 4s ease;
+}
+@keyframes slideInSecond{
+    0%{ transform: translateX(45rem); }
+    100%{ transform: translateX(14rem); }
+}
+
+.breathe{
+    animation: breathe 4s infinite ease-in-out;
+}
+@keyframes breathe{
+    0%{ transform: scale(normal); }
+    50%{ transform: scale(1.05); }
+    100%{ transform: scale(normal); }
+}

@@ -1,0 +1,25 @@
+#TermsOfService{
+    z-index: 3;
+    background-color: rgba(211, 211, 211, 0.5);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+}
+.termsOfServiceView{
+    margin: auto;
+    width: 60%;
+    height: 65%;
+}
+iframe{
+    margin-top: 4rem;
+    width: 100%;
+    height: 100%;
+}
+.test{
+    margin: auto;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}

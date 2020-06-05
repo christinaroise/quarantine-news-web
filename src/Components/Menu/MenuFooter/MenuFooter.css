@@ -1,0 +1,21 @@
+.menuFooterContainer{
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+.menuFooter{
+    display: grid;
+    text-align: right;
+    width: 100%;
+}
+
+.menuFooter > a{
+    height: 1.8rem;
+    color: white;
+    text-decoration: none;
+}
+
+.menuFooter > a:hover{
+    font-size: 1.05rem;
+}

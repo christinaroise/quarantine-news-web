@@ -1,0 +1,28 @@
+.mobileMenuContainer{
+    display: none;
+}
+.mobileMenu{
+    display: none;
+    text-align: right;
+    padding: 1rem;
+    padding-right: 0rem;
+}
+.mobileMenu > a{
+    font-size: 1.5rem;
+    color: rgb(143, 196, 213);
+    text-decoration: none;
+}
+.mobileMenu > a:hover{
+    font-size: 1.35rem;
+    cursor: pointer;
+}
+.selected{
+    font-weight: 600 !important;
+}
+
+@media only screen and (max-width: 1024px){
+    .mobileMenuContainer{
+        display: grid;
+        justify-content: flex-end;
+    }
+}

@@ -1,0 +1,40 @@
+.footerWrapper{
+    width: 100vw;
+    height: 15vh;
+    display: grid;
+    align-items: bottom;
+    background: rgb(143, 196, 213);
+    padding: 2rem 0rem;
+}
+.footer{
+    z-index: 3;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    color: white;
+}
+.footerTextContainer{
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+}
+.footerTextContainer > p{
+    margin: 0;
+    line-height: 1.5;
+}
+.creditLink{
+    text-decoration: none;
+    color: white;
+}
+.creditLink:hover{
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 1024px){
+    .footer{
+        width: 80%;
+        margin: auto;
+    }
+}

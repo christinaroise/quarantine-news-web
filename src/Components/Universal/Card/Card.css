@@ -1,0 +1,36 @@
+.card{
+    margin: auto;
+    display: grid;
+    width: 12rem;
+}
+.cardIcon{
+    margin: auto;
+    border-radius: 100%;
+    width: 8rem;
+    height: 8rem;
+    display: grid;
+}
+.cardIcon > img{
+    width: 5rem;
+    margin: auto;
+}
+.cardTitle{
+    margin-bottom: 0;
+    color: #C8A374;
+    font-weight: 600;
+    font-size: 1.15rem;
+}
+
+@media only screen and (max-width: 768px){
+    .card{
+        width: 10rem;
+        height: 14rem;
+    }
+    .cardIcon{
+        width: 5rem;
+        height: 5rem;
+    }
+    .cardIcon > img{
+        width: 3rem;
+    }
+}

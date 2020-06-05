@@ -1,0 +1,39 @@
+.menuContainer{
+    display: block;
+    width: 100%;
+}
+.desktopMenuWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desktopMenuContainer{
+    flex: 2;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    justify-content: right;
+    text-align: right;
+    padding: 0rem 1rem;
+}
+.desktopMenuContainer > a{
+    justify-self: center;
+    padding: 0rem 1.5rem;
+    font-size: 1.25rem;
+    color: rgb(143, 196, 213);
+    text-align: center;
+    text-decoration: none;
+}
+.desktopMenuContainer > a:hover{
+    font-size: 1.35rem;
+    cursor: pointer;
+}
+.selected{
+    font-weight: 600 !important;
+}
+@media only screen and (max-width: 1024px){
+    .desktopMenuWrapper{
+        display: none;
+    }
+}

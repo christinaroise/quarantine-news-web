@@ -1,0 +1,99 @@
+.textBlockWrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    width: 100%;
+    height: 100vh;
+}
+.textBlockImgWrapper{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textBlockShape{ 
+    position: absolute;
+    background-color: rgba(143, 195, 213, 0.2);
+    height: 30rem;
+    width: 30rem;
+    border-radius: 100%;
+}
+.textBlockImg{
+    z-index: 1;
+    width: 24rem;
+}
+.textBlockImg > img{
+    width: 24rem;
+}
+.textBlockImg > h1{
+    text-align: center;
+    font-size: 4rem;
+    line-height: 1;
+    color: rgb(143, 196, 213);
+
+}
+.textComponent{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding: 2rem;
+} 
+.textComponent > h2{
+    font-size: 2rem;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1400px){
+    .textBlockShape{ 
+        height: 28rem;
+        width: 28rem;
+    }
+    .textBlockImg{
+        z-index: 1;
+        width: 22rem;
+    }
+    .textBlockImg > img{
+        width: 22rem;
+    }
+}
+@media only screen and (max-width: 1330px){
+    .textBlockShape{ 
+        height: 26rem;
+        width: 26rem;
+    }
+    .textBlockImg{
+        z-index: 1;
+        width: 20rem;
+    }
+    .textBlockImg > img{
+        width: 20rem;
+    }
+}
+@media only screen and (max-width: 950px){
+    .textBlockWrapper{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 2rem 0rem 5rem 0rem;
+        border-bottom: 1px solid rgba(211, 211, 211, 0.5); 
+    }
+    .textComponent{
+        text-align: center;
+        width: 80%;
+    } 
+    .textBlockImg > img{
+        width: 20rem;
+    }
+}
+@media only screen and (max-width: 600px){
+    .textBlockShape{ 
+        height: 20rem;
+        width: 20rem;
+    }
+    .textBlockImg{
+        z-index: 1;
+        width: 15rem;
+    }
+    .textBlockImg > img{
+        width: 15rem;
+    }
+}
